@@ -1,0 +1,37 @@
+.divCard {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.75rem;
+  align-items: center;
+  /* margin-bottom: 20px; */
+  margin: 0 25px 20px 25px;
+  /* margin-right: 25px; */
+}
+
+.personInfo {
+  text-align: left;
+  display: grid;
+  height: 100%;
+}
+
+.personInfo p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.divCard .personName {
+  font-size: 1.25rem;
+  color: black;
+  font-weight: bold;
+}
+.divCard .personAge {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.imageAvatar {
+  min-width: 75px;
+  height: 75px;
+  border-radius: 50px;
+}
